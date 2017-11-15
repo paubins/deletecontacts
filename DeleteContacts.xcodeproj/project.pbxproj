@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2F9C6A1FBCBB35006A5C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C691FBCBB35006A5C14 /* AppDelegate.swift */; };
+		5F2F9C6C1FBCBB35006A5C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C6B1FBCBB35006A5C14 /* ViewController.swift */; };
+		5F2F9C6F1FBCBB35006A5C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F9C6D1FBCBB35006A5C14 /* Main.storyboard */; };
+		5F2F9C711FBCBB35006A5C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F9C701FBCBB35006A5C14 /* Assets.xcassets */; };
+		5F2F9C741FBCBB35006A5C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F9C721FBCBB35006A5C14 /* LaunchScreen.storyboard */; };
+		5F2F9C7F1FBCBB36006A5C14 /* DeleteContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C7E1FBCBB36006A5C14 /* DeleteContactsTests.swift */; };
+		5F2F9C8A1FBCBB36006A5C14 /* DeleteContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C891FBCBB36006A5C14 /* DeleteContactsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F2F9C7B1FBCBB36006A5C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F2F9C5E1FBCBB35006A5C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F2F9C651FBCBB35006A5C14;
+			remoteInfo = DeleteContacts;
+		};
+		5F2F9C861FBCBB36006A5C14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F2F9C5E1FBCBB35006A5C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F2F9C651FBCBB35006A5C14;
+			remoteInfo = DeleteContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F2F9C661FBCBB35006A5C14 /* DeleteContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2F9C691FBCBB35006A5C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F2F9C6B1FBCBB35006A5C14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F2F9C6E1FBCBB35006A5C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F2F9C701FBCBB35006A5C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F2F9C731FBCBB35006A5C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F2F9C751FBCBB35006A5C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2F9C7A1FBCBB36006A5C14 /* DeleteContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2F9C7E1FBCBB36006A5C14 /* DeleteContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteContactsTests.swift; sourceTree = "<group>"; };
+		5F2F9C801FBCBB36006A5C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2F9C851FBCBB36006A5C14 /* DeleteContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2F9C891FBCBB36006A5C14 /* DeleteContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteContactsUITests.swift; sourceTree = "<group>"; };
+		5F2F9C8B1FBCBB36006A5C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F2F9C631FBCBB35006A5C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2F9C771FBCBB36006A5C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2F9C821FBCBB36006A5C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2F9C5D1FBCBB35006A5C14 = {
+			isa = PBXGroup;
+			children = (
+				5F2F9C681FBCBB35006A5C14 /* DeleteContacts */,
+				5F2F9C7D1FBCBB36006A5C14 /* DeleteContactsTests */,
+				5F2F9C881FBCBB36006A5C14 /* DeleteContactsUITests */,
+				5F2F9C671FBCBB35006A5C14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F2F9C671FBCBB35006A5C14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F9C661FBCBB35006A5C14 /* DeleteContacts.app */,
+				5F2F9C7A1FBCBB36006A5C14 /* DeleteContactsTests.xctest */,
+				5F2F9C851FBCBB36006A5C14 /* DeleteContactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F2F9C681FBCBB35006A5C14 /* DeleteContacts */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F9C691FBCBB35006A5C14 /* AppDelegate.swift */,
+				5F2F9C6B1FBCBB35006A5C14 /* ViewController.swift */,
+				5F2F9C6D1FBCBB35006A5C14 /* Main.storyboard */,
+				5F2F9C701FBCBB35006A5C14 /* Assets.xcassets */,
+				5F2F9C721FBCBB35006A5C14 /* LaunchScreen.storyboard */,
+				5F2F9C751FBCBB35006A5C14 /* Info.plist */,
+			);
+			path = DeleteContacts;
+			sourceTree = "<group>";
+		};
+		5F2F9C7D1FBCBB36006A5C14 /* DeleteContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F9C7E1FBCBB36006A5C14 /* DeleteContactsTests.swift */,
+				5F2F9C801FBCBB36006A5C14 /* Info.plist */,
+			);
+			path = DeleteContactsTests;
+			sourceTree = "<group>";
+		};
+		5F2F9C881FBCBB36006A5C14 /* DeleteContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F2F9C891FBCBB36006A5C14 /* DeleteContactsUITests.swift */,
+				5F2F9C8B1FBCBB36006A5C14 /* Info.plist */,
+			);
+			path = DeleteContactsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F2F9C651FBCBB35006A5C14 /* DeleteContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2F9C8E1FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContacts" */;
+			buildPhases = (
+				5F2F9C621FBCBB35006A5C14 /* Sources */,
+				5F2F9C631FBCBB35006A5C14 /* Frameworks */,
+				5F2F9C641FBCBB35006A5C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeleteContacts;
+			productName = DeleteContacts;
+			productReference = 5F2F9C661FBCBB35006A5C14 /* DeleteContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F2F9C791FBCBB36006A5C14 /* DeleteContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2F9C911FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContactsTests" */;
+			buildPhases = (
+				5F2F9C761FBCBB36006A5C14 /* Sources */,
+				5F2F9C771FBCBB36006A5C14 /* Frameworks */,
+				5F2F9C781FBCBB36006A5C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F2F9C7C1FBCBB36006A5C14 /* PBXTargetDependency */,
+			);
+			name = DeleteContactsTests;
+			productName = DeleteContactsTests;
+			productReference = 5F2F9C7A1FBCBB36006A5C14 /* DeleteContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F2F9C841FBCBB36006A5C14 /* DeleteContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2F9C941FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContactsUITests" */;
+			buildPhases = (
+				5F2F9C811FBCBB36006A5C14 /* Sources */,
+				5F2F9C821FBCBB36006A5C14 /* Frameworks */,
+				5F2F9C831FBCBB36006A5C14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F2F9C871FBCBB36006A5C14 /* PBXTargetDependency */,
+			);
+			name = DeleteContactsUITests;
+			productName = DeleteContactsUITests;
+			productReference = 5F2F9C851FBCBB36006A5C14 /* DeleteContactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F2F9C5E1FBCBB35006A5C14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Patrick Aubin";
+				TargetAttributes = {
+					5F2F9C651FBCBB35006A5C14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5F2F9C791FBCBB36006A5C14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F2F9C651FBCBB35006A5C14;
+					};
+					5F2F9C841FBCBB36006A5C14 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5F2F9C651FBCBB35006A5C14;
+					};
+				};
+			};
+			buildConfigurationList = 5F2F9C611FBCBB35006A5C14 /* Build configuration list for PBXProject "DeleteContacts" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F2F9C5D1FBCBB35006A5C14;
+			productRefGroup = 5F2F9C671FBCBB35006A5C14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F2F9C651FBCBB35006A5C14 /* DeleteContacts */,
+				5F2F9C791FBCBB36006A5C14 /* DeleteContactsTests */,
+				5F2F9C841FBCBB36006A5C14 /* DeleteContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F2F9C641FBCBB35006A5C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2F9C741FBCBB35006A5C14 /* LaunchScreen.storyboard in Resources */,
+				5F2F9C711FBCBB35006A5C14 /* Assets.xcassets in Resources */,
+				5F2F9C6F1FBCBB35006A5C14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2F9C781FBCBB36006A5C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2F9C831FBCBB36006A5C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F2F9C621FBCBB35006A5C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2F9C6C1FBCBB35006A5C14 /* ViewController.swift in Sources */,
+				5F2F9C6A1FBCBB35006A5C14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2F9C761FBCBB36006A5C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2F9C7F1FBCBB36006A5C14 /* DeleteContactsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2F9C811FBCBB36006A5C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2F9C8A1FBCBB36006A5C14 /* DeleteContactsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F2F9C7C1FBCBB36006A5C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F2F9C651FBCBB35006A5C14 /* DeleteContacts */;
+			targetProxy = 5F2F9C7B1FBCBB36006A5C14 /* PBXContainerItemProxy */;
+		};
+		5F2F9C871FBCBB36006A5C14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F2F9C651FBCBB35006A5C14 /* DeleteContacts */;
+			targetProxy = 5F2F9C861FBCBB36006A5C14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F2F9C6D1FBCBB35006A5C14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2F9C6E1FBCBB35006A5C14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F2F9C721FBCBB35006A5C14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F2F9C731FBCBB35006A5C14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F2F9C8C1FBCBB36006A5C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F2F9C8D1FBCBB36006A5C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F2F9C8F1FBCBB36006A5C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42N9D6EK46;
+				INFOPLIST_FILE = DeleteContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F2F9C901FBCBB36006A5C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42N9D6EK46;
+				INFOPLIST_FILE = DeleteContacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F2F9C921FBCBB36006A5C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42N9D6EK46;
+				INFOPLIST_FILE = DeleteContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeleteContacts.app/DeleteContacts";
+			};
+			name = Debug;
+		};
+		5F2F9C931FBCBB36006A5C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42N9D6EK46;
+				INFOPLIST_FILE = DeleteContactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeleteContacts.app/DeleteContacts";
+			};
+			name = Release;
+		};
+		5F2F9C951FBCBB36006A5C14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42N9D6EK46;
+				INFOPLIST_FILE = DeleteContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeleteContacts;
+			};
+			name = Debug;
+		};
+		5F2F9C961FBCBB36006A5C14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42N9D6EK46;
+				INFOPLIST_FILE = DeleteContactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeleteContacts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F2F9C611FBCBB35006A5C14 /* Build configuration list for PBXProject "DeleteContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F9C8C1FBCBB36006A5C14 /* Debug */,
+				5F2F9C8D1FBCBB36006A5C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2F9C8E1FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F9C8F1FBCBB36006A5C14 /* Debug */,
+				5F2F9C901FBCBB36006A5C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2F9C911FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F9C921FBCBB36006A5C14 /* Debug */,
+				5F2F9C931FBCBB36006A5C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2F9C941FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2F9C951FBCBB36006A5C14 /* Debug */,
+				5F2F9C961FBCBB36006A5C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F2F9C5E1FBCBB35006A5C14 /* Project object */;
+}
