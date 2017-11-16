@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2789B1929116B1A1909A7386 /* Pods_DeleteContactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7525125B2E23DEFC31D63B7 /* Pods_DeleteContactsTests.framework */; };
+		4E1B8A493431D86CAB93A03A /* Pods_DeleteContactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0120FFAA0F1B270EE9E3F1 /* Pods_DeleteContactsUITests.framework */; };
 		5F2F9C6A1FBCBB35006A5C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C691FBCBB35006A5C14 /* AppDelegate.swift */; };
 		5F2F9C6C1FBCBB35006A5C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C6B1FBCBB35006A5C14 /* ViewController.swift */; };
 		5F2F9C6F1FBCBB35006A5C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F9C6D1FBCBB35006A5C14 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		5F2F9C741FBCBB35006A5C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F2F9C721FBCBB35006A5C14 /* LaunchScreen.storyboard */; };
 		5F2F9C7F1FBCBB36006A5C14 /* DeleteContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C7E1FBCBB36006A5C14 /* DeleteContactsTests.swift */; };
 		5F2F9C8A1FBCBB36006A5C14 /* DeleteContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C891FBCBB36006A5C14 /* DeleteContactsUITests.swift */; };
+		5F2F9C9A1FBCBB5D006A5C14 /* ContactsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F9C991FBCBB5D006A5C14 /* ContactsController.m */; };
+		C824243EAFA11E48ED57EC51 /* Pods_DeleteContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB65DD163C14A0AFE15196EB /* Pods_DeleteContacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F96561F7B5F0DCF5D3E070F /* Pods-DeleteContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeleteContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts.release.xcconfig"; sourceTree = "<group>"; };
+		5E0120FFAA0F1B270EE9E3F1 /* Pods_DeleteContactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeleteContactsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2F9C661FBCBB35006A5C14 /* DeleteContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeleteContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2F9C691FBCBB35006A5C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F2F9C6B1FBCBB35006A5C14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 		5F2F9C851FBCBB36006A5C14 /* DeleteContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeleteContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2F9C891FBCBB36006A5C14 /* DeleteContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteContactsUITests.swift; sourceTree = "<group>"; };
 		5F2F9C8B1FBCBB36006A5C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2F9C971FBCBB5D006A5C14 /* DeleteContacts-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeleteContacts-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F2F9C981FBCBB5D006A5C14 /* ContactsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsController.h; sourceTree = "<group>"; };
+		5F2F9C991FBCBB5D006A5C14 /* ContactsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsController.m; sourceTree = "<group>"; };
+		618A2C3D0D4D3843E3D89DC1 /* Pods-DeleteContactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeleteContactsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeleteContactsUITests/Pods-DeleteContactsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		91529D7189CFDFA8B9BC0DD4 /* Pods-DeleteContactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeleteContactsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeleteContactsUITests/Pods-DeleteContactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7FE8DBEC98F8D8A58059B17 /* Pods-DeleteContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeleteContactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeleteContactsTests/Pods-DeleteContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5A4A48E9BCB066E021F29EE /* Pods-DeleteContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeleteContactsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeleteContactsTests/Pods-DeleteContactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7525125B2E23DEFC31D63B7 /* Pods_DeleteContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeleteContactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B863F27BB67B892A5024DB7A /* Pods-DeleteContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeleteContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		FB65DD163C14A0AFE15196EB /* Pods_DeleteContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeleteContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C824243EAFA11E48ED57EC51 /* Pods_DeleteContacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2789B1929116B1A1909A7386 /* Pods_DeleteContactsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1B8A493431D86CAB93A03A /* Pods_DeleteContactsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +96,15 @@
 		5F2F9C5D1FBCBB35006A5C14 = {
 			isa = PBXGroup;
 			children = (
+				5F2F9C981FBCBB5D006A5C14 /* ContactsController.h */,
+				5F2F9C991FBCBB5D006A5C14 /* ContactsController.m */,
 				5F2F9C681FBCBB35006A5C14 /* DeleteContacts */,
 				5F2F9C7D1FBCBB36006A5C14 /* DeleteContactsTests */,
 				5F2F9C881FBCBB36006A5C14 /* DeleteContactsUITests */,
 				5F2F9C671FBCBB35006A5C14 /* Products */,
+				5F2F9C971FBCBB5D006A5C14 /* DeleteContacts-Bridging-Header.h */,
+				E4015A72F0C4191D39AE34C2 /* Pods */,
+				88B0B922E7B6EC87CD046315 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +149,29 @@
 			path = DeleteContactsUITests;
 			sourceTree = "<group>";
 		};
+		88B0B922E7B6EC87CD046315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB65DD163C14A0AFE15196EB /* Pods_DeleteContacts.framework */,
+				B7525125B2E23DEFC31D63B7 /* Pods_DeleteContactsTests.framework */,
+				5E0120FFAA0F1B270EE9E3F1 /* Pods_DeleteContactsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4015A72F0C4191D39AE34C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B863F27BB67B892A5024DB7A /* Pods-DeleteContacts.debug.xcconfig */,
+				0F96561F7B5F0DCF5D3E070F /* Pods-DeleteContacts.release.xcconfig */,
+				A7FE8DBEC98F8D8A58059B17 /* Pods-DeleteContactsTests.debug.xcconfig */,
+				B5A4A48E9BCB066E021F29EE /* Pods-DeleteContactsTests.release.xcconfig */,
+				91529D7189CFDFA8B9BC0DD4 /* Pods-DeleteContactsUITests.debug.xcconfig */,
+				618A2C3D0D4D3843E3D89DC1 /* Pods-DeleteContactsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F2F9C8E1FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContacts" */;
 			buildPhases = (
+				326668CBB38A15BB337E08AD /* [CP] Check Pods Manifest.lock */,
 				5F2F9C621FBCBB35006A5C14 /* Sources */,
 				5F2F9C631FBCBB35006A5C14 /* Frameworks */,
 				5F2F9C641FBCBB35006A5C14 /* Resources */,
+				468BA2272BEFF746E46EB930 /* [CP] Embed Pods Frameworks */,
+				95271C32BC673A3D565E3595 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F2F9C911FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContactsTests" */;
 			buildPhases = (
+				E0A5C9767457CC74FBD2B783 /* [CP] Check Pods Manifest.lock */,
 				5F2F9C761FBCBB36006A5C14 /* Sources */,
 				5F2F9C771FBCBB36006A5C14 /* Frameworks */,
 				5F2F9C781FBCBB36006A5C14 /* Resources */,
+				1358773837D9D2C3963288B8 /* [CP] Embed Pods Frameworks */,
+				173B64B77A4C415408448D64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F2F9C941FBCBB36006A5C14 /* Build configuration list for PBXNativeTarget "DeleteContactsUITests" */;
 			buildPhases = (
+				A583630FB657893DE9B83F92 /* [CP] Check Pods Manifest.lock */,
 				5F2F9C811FBCBB36006A5C14 /* Sources */,
 				5F2F9C821FBCBB36006A5C14 /* Frameworks */,
 				5F2F9C831FBCBB36006A5C14 /* Resources */,
+				8A9644C0EE216CDDE2750795 /* [CP] Embed Pods Frameworks */,
+				BB906FA5EBA49F538702CAFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +249,7 @@
 				TargetAttributes = {
 					5F2F9C651FBCBB35006A5C14 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					5F2F9C791FBCBB36006A5C14 = {
@@ -254,6 +311,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1358773837D9D2C3963288B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContactsTests/Pods-DeleteContactsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		173B64B77A4C415408448D64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContactsTests/Pods-DeleteContactsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326668CBB38A15BB337E08AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeleteContacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		468BA2272BEFF746E46EB930 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A9644C0EE216CDDE2750795 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContactsUITests/Pods-DeleteContactsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95271C32BC673A3D565E3595 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A583630FB657893DE9B83F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeleteContactsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB906FA5EBA49F538702CAFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeleteContactsUITests/Pods-DeleteContactsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0A5C9767457CC74FBD2B783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeleteContactsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5F2F9C621FBCBB35006A5C14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +472,7 @@
 			files = (
 				5F2F9C6C1FBCBB35006A5C14 /* ViewController.swift in Sources */,
 				5F2F9C6A1FBCBB35006A5C14 /* AppDelegate.swift in Sources */,
+				5F2F9C9A1FBCBB5D006A5C14 /* ContactsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +636,18 @@
 		};
 		5F2F9C8F1FBCBB36006A5C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B863F27BB67B892A5024DB7A /* Pods-DeleteContacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42N9D6EK46;
 				INFOPLIST_FILE = DeleteContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeleteContacts-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -439,14 +655,17 @@
 		};
 		5F2F9C901FBCBB36006A5C14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F96561F7B5F0DCF5D3E070F /* Pods-DeleteContacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42N9D6EK46;
 				INFOPLIST_FILE = DeleteContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.paubins.DeleteContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeleteContacts-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +673,7 @@
 		};
 		5F2F9C921FBCBB36006A5C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7FE8DBEC98F8D8A58059B17 /* Pods-DeleteContactsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +691,7 @@
 		};
 		5F2F9C931FBCBB36006A5C14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A4A48E9BCB066E021F29EE /* Pods-DeleteContactsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +709,7 @@
 		};
 		5F2F9C951FBCBB36006A5C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91529D7189CFDFA8B9BC0DD4 /* Pods-DeleteContactsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +726,7 @@
 		};
 		5F2F9C961FBCBB36006A5C14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618A2C3D0D4D3843E3D89DC1 /* Pods-DeleteContactsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

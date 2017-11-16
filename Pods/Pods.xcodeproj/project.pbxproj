@@ -1,0 +1,1493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0104830478F68244D9627F6DC205D940 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2DCD01A8133F708FE5C3FC01AF31AF /* MetadataManager.swift */; };
+		01630B2CDB6B45477072484503523233 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 574F1F8254E290CE3A0704C774FF6B26 /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C1C6C0B246E3C5FDF06B2A0BB63F0D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C821C2D133627180B2D6471FED9DBFD /* View.swift */; };
+		06270CD9D8C26C49505C5F53FF11D927 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF8E196472FB56629982A31268CA5A /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		067B84F7E9EFBEAFDC824931CAAD2051 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB006498C37140216F3B32093AA687 /* Align.swift */; };
+		08284B0947FEECE865742912B045BCCF /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C548D3B519EED7ECD2761D6CF3F30 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A0E4409D9DAE435A35BAD353F02E60A /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D27F54B2C5D5D52773E84DC4D4A846F /* Formatter.swift */; };
+		1431619A2565DD8EAB817240E078707C /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ABA8254AB4DAF23C0CBB832678BCA6 /* LayoutProxy.swift */; };
+		1437647AF7C88C65998EFA2A2C2B4C01 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E560B8B38594CB62A4E51FB36FA284 /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176FCA5403B59397FB5B9481F9B2FF47 /* Pods-DeleteContacts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7D05A1B2966A996912760961E32375 /* Pods-DeleteContacts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6AD14A29B9DD534ABD5BFD462F8B46 /* Pods-DeleteContacts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEF411FE5F8B9EA24E33BE411B728C /* Pods-DeleteContacts-dummy.m */; };
+		1FE784EA6C983CCFADBBC32B77159FAE /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F9C3CBAC0F858AD395B0B63EAAD4B5 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B60CFF6E57EB6DF8CCA5D2CAC3178C /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C72C1D65BCDDA556F200032872711F /* Priority.swift */; };
+		23C7A95FE6B5FD3E1663F19998E29053 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6397E37211BF1AA17CE52A4F4446C0 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28DDFF25768E01F1890BCFA79B2DDCE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */; };
+		2DBA4141D7B052E43958C96F3466FA6E /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC4A6BCD8E064FC8B8EB1FB66C8B9E1 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		345550ECBA5ABA4FF86DCB480D4A3A58 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1637FEF1F96523982BC224D518CA5FDF /* PhoneNumberParser.swift */; };
+		34ADF6CEA813D96341D2C4ED247D0DFD /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 49534935113E6D5D744A1D0B5E5A7E0B /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		381685FA8A1867BFBA1812E8D793DC93 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4304FC3ECBC3E14CC980D3532E4D4789 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F2391D80C5AE124D6E13AD3FABFFE01 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847340CD2DE8F8B1F8781E987EC7291A /* Constrain.swift */; };
+		3FFB518D11A6E10939ADC380F61245E9 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B9A95630E49915420100DA8BF9600A /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		466560586F04FC7219636C25771ADAB7 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A4835B80590662CF75337EBB04D20C04 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9F1A87FA2940B18DBD32B0180D50FA /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = 31CD813572338829ED0F17B01171BD1C /* PhoneNumberMetadata.json */; };
+		4FF8DAFE58FB9C3EB9C04C0F9CDEAD68 /* Pods-DeleteContactsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1173D80F43E5679699108D95744DC0 /* Pods-DeleteContactsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56EBA0C77344F63CA6A36265A6496A71 /* LayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57E692589ABA7FB950A3867CADF1B7F /* LayoutSupport.swift */; };
+		599FCB585BC9E290ED412A0633E2CE0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */; };
+		5CAA19E0EB7CA9EB6047A3E43EC1FC8F /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75056E51B7EE5E69BE4554524F5B8C08 /* ConstraintGroup.swift */; };
+		5F5D3FB5718F4673DC293DA7D97EF046 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B52F85AD98C3B74EE70D22FD4149E4 /* Compound.swift */; };
+		5F74DB5E632AB8F370CADB9A57A62905 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AD0A9D59A8A85FB4C0862DC964A8E /* ParseManager.swift */; };
+		6098FC99C196F13DF60B1650E4894025 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */; };
+		61536BB30EC36D7AC1845CDBCA394763 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F413D54B461B6108F2E4D5144E3EB8D4 /* CoreTelephony.framework */; };
+		63AEECFF84EAA3FC953358F2DB6D5267 /* Pods-DeleteContactsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E674108204DAB2356BB4C563BA3FC4 /* Pods-DeleteContactsUITests-dummy.m */; };
+		697414FCC3C6F8176768FFDDEC73A108 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAA389398045CA16E60F34CAEC8581F /* Expression.swift */; };
+		6FBD4B684936450BD7CD0155347BB4EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */; };
+		7163FCA57C02C890435DFA2A4F3AE4C8 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 639BF79D565673CFBA1AE0BB70F62BE9 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74BD0664EEC77366D314DA22DD4E721F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E63CEA7ACC3CB89229E39519F8B93 /* Size.swift */; };
+		75CC69BC081384EA3033F3AB5CF97E29 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F31FB21E5B6B0E37A6D166E6B3DE64 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		77F55DA1292F4A23365745071EF0B667 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF18296E03DEFD9EFEB069828BFDB6C2 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7965A04590F67375EC65249F774B3F6B /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA052AF641610FE5C9618B7E817221C5 /* Distribute.swift */; };
+		824894B05CC386BEDEB4A1CD5B2E5BFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */; };
+		88B21B225B2D6BFAB3F50B88495299F1 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F9050B9598B80AD46998A97C2A6012 /* Point.swift */; };
+		9047E05189D481A9ED8BE3F9C8331AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */; };
+		9B71D4856DF9CFE5715EDF4E5B3B2844 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA43FC2C2FC64161B230FC751A643F3 /* ViewUtils.swift */; };
+		9BF0B3132715704E433B205423D73740 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632DCE5EFAFC9B2429E499B57195EA4D /* Constants.swift */; };
+		9C7E8D85506FA06C506A330B200FCEE7 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC00A56E33F57FAA477E7E70D2CA0E38 /* Context.swift */; };
+		9C8BF7D4C243818BF3FBF03E54F44295 /* PhoneNumberKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A53100649B6F8944E7614769CB490D3 /* PhoneNumberKit-dummy.m */; };
+		9ECDFDB4B9829BBB0E369F85D240B8AE /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76A8407DF35C70D0A9146869DEF438D /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A084DDD7233A950676D60FCB4FA8BE74 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69C0D5CF9D761AAF0AFF06CE67D66F7 /* Edges.swift */; };
+		A38FD606BF174D0485A33F01074216FA /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD6E08939A9E8E7450069FFD486262 /* DDOSLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A67286FF819C5C943D027E9C40DF456D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025512BFFB5DB84929FB2E1C0C1D16B /* Extensions.swift */; };
+		A7BD4B74A484170A23FF6C7611A11B40 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD4EAA2E6783A79A22BE194616C8AEC /* Property.swift */; };
+		AE7ACD648B84D1C8645049118FE42D54 /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A4091A7F55AF1133066DC263A9BB2E /* Cartography-dummy.m */; };
+		AECF93568D922159B76A632196FCA6E9 /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D781929C3138BF6F6E38436F6CDB5D /* NSRegularExpression+Swift.swift */; };
+		B6EADA01029546ADA5D4718F1471799C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E4062A451DF9E55954ABCA0DAE3E5D /* PhoneNumber.swift */; };
+		B8D00D039135E8ABE6417C5D2E3D6C9E /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A1962C5FE33F00BABC3022714655497 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2E2993258D9072061A389E518053F8B /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75500B9EABADF18F9C20146B1FF25E7 /* Constraint.swift */; };
+		C592821D9C86A16075F492CDDD7EBFA0 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D737CEE7850116727F16DEEABC1C18 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6DDC840836592382565874D9FDC2613 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DB5763B875D2EAE74688CA18738238 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6F8F9FD9146C80B8913691FE1C62D7B /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C9C8E145864EEB84E72807D536866B /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC870D61CBE8FD2A0D24A3A3D8CE5C62 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 777864DB3273680CA09C5BA8EFBF756B /* CocoaLumberjack-dummy.m */; };
+		CD587D5E28B0428E3B4163F1604D26BF /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAAFD27DDD994D1CF030E9956AC748B /* Edge.swift */; };
+		CE0DDEB478F72FC416E2C6C52D0C2B29 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 743002A2302D17116C8C899FC6591D48 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F291A7006FEFD54E568A70080FB82E /* Pods-DeleteContactsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E90EB6C124961782D313137F349B4B4 /* Pods-DeleteContactsTests-dummy.m */; };
+		D4D11238776F6517BE1E5BF70ABBF452 /* PhoneNumberKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A1D44478C06E1348957BEEB28A54B0 /* PhoneNumberKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D4A699779F1796A4F24BFE1FB94E20 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EE1A6023BBE4B1DDFFA4FD3EA0931 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D83522A96EB0E8AC32E66D149A4C7D13 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3905239DDC4DBF0F3D398F913C04D6FB /* MetadataTypes.swift */; };
+		DA9B436408E2C274B67172AFA5CA8BC8 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4942EA2358CEFA3419B1B84EA4C48D /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC0D8FEB6A8101C977332E8BC16E641 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8603470E6ABF12C56B03A6E9AAD3F183 /* Dimension.swift */; };
+		E2CDF70ADCB177E5A75995E34BF537A1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5DF55B3579D0DB4D8EB01A0D7E1E02 /* TextField.swift */; };
+		E3C5456FB49A749739230C235355D473 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FED6CADD99C9B007B95C53CA6CCA09B5 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AAC8C0A171F5D16D5CC4EDFCFD3AA1 /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D139E3A6BE745CB411A8C4733486A767 /* RegexManager.swift */; };
+		F17D3D26ADE94380EAEE45707FDED798 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E827F6BC607D7845ABB5038072596EDB /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3471ADCD4C3F3995D27362A2DA5054A /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56012938EFD2908A090A730C4157B49 /* PhoneNumberKit.swift */; };
+		F68DC25AA98DA8ADA74CDFF5FD139A71 /* Pods-DeleteContactsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E41E0FB32E52AA3781C04C77FD8AB4B5 /* Pods-DeleteContactsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC1615ACE4FF20081559149DCA6FB73A /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4F9C83C8DFBED005F4497FDD9C6512 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC27B916EC313A166CE2704745CB14C0 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E27EF208F0ADBE8323E51EB0CF714D /* Coefficients.swift */; };
+		FD2E20B69C2E19818E62F6570D93917C /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE23794006D7EA9A5CD482A16CE8EC4 /* PartialFormatter.swift */; };
+		FE4D13CA6A4999D13875761E5100C1A0 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D512A74D049C60C7E9562A0403B93AB5 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33EBFE75960FB4A1AD58A8C3E20BB641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2A920A891C4D3535867E5C3EF3D793;
+			remoteInfo = CocoaLumberjack;
+		};
+		5D0D6E89E3C0D1C97039661B27A472D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 544212980401A6DA7806F65EAD8C6637;
+			remoteInfo = Cartography;
+		};
+		7DAC596AC06F69B16575A50D942A80E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C5BD10883BD185426DD737247F56DEC;
+			remoteInfo = PhoneNumberKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0025512BFFB5DB84929FB2E1C0C1D16B /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		03C9C8E145864EEB84E72807D536866B /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		0A1962C5FE33F00BABC3022714655497 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		0AAF72486E25DF70855F826006CDFC75 /* Pods-DeleteContactsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeleteContactsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C03EBD50C378D6417925353EFEE2D52 /* Pods-DeleteContactsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeleteContactsUITests-resources.sh"; sourceTree = "<group>"; };
+		104DB34B333689D732D89D3586F7CCEA /* Pods_DeleteContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeleteContactsTests.framework; path = "Pods-DeleteContactsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108533A816B9412FE26091000E24E740 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		16157453196C23E34C742382C8F8CC67 /* Pods-DeleteContactsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeleteContactsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1637FEF1F96523982BC224D518CA5FDF /* PhoneNumberParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
+		187C548D3B519EED7ECD2761D6CF3F30 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		1AE23794006D7EA9A5CD482A16CE8EC4 /* PartialFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
+		1DBE854B7D3CCA9CF777DFEC30870D1D /* Pods-DeleteContactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeleteContactsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1EF2B80A9D2121A845AA3DABCB2E1894 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E4062A451DF9E55954ABCA0DAE3E5D /* PhoneNumber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
+		2A0787ED96C3DC9BFF89DC26BCA9F17C /* Pods-DeleteContacts-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeleteContacts-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A1A5E7F4D110DB97C086F0343BD731F /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C66CA0EA42AD2F65E820BC4F9B2B277 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D485B800A322710F28056AB99969D1B /* Pods-DeleteContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeleteContacts.release.xcconfig"; sourceTree = "<group>"; };
+		2E90EB6C124961782D313137F349B4B4 /* Pods-DeleteContactsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeleteContactsTests-dummy.m"; sourceTree = "<group>"; };
+		2E9BE8152C76CC3E0F7AB1CC248A309E /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cartography.framework; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CD813572338829ED0F17B01171BD1C /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; includeInIndex = 1; name = PhoneNumberMetadata.json; path = PhoneNumberKit/Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
+		31E27EF208F0ADBE8323E51EB0CF714D /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		374CD2F6A4C8066D796BA58CC069E57D /* Pods-DeleteContacts-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeleteContacts-resources.sh"; sourceTree = "<group>"; };
+		3874145B8AFE471AA3B19E564E364047 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D737CEE7850116727F16DEEABC1C18 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		3905239DDC4DBF0F3D398F913C04D6FB /* MetadataTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
+		3DC1667D536DE29266AE8583EC8FBED4 /* PhoneNumberKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-prefix.pch"; sourceTree = "<group>"; };
+		41ABA8254AB4DAF23C0CBB832678BCA6 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		4304FC3ECBC3E14CC980D3532E4D4789 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		45AD6E08939A9E8E7450069FFD486262 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Classes/DDOSLogger.m; sourceTree = "<group>"; };
+		46C72C1D65BCDDA556F200032872711F /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		49534935113E6D5D744A1D0B5E5A7E0B /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		4A1173D80F43E5679699108D95744DC0 /* Pods-DeleteContactsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeleteContactsTests-umbrella.h"; sourceTree = "<group>"; };
+		4A7F05244864197A54D4BF33386DC942 /* Pods-DeleteContactsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeleteContactsTests-resources.sh"; sourceTree = "<group>"; };
+		4BC2D1B2EB16E5DA97D5E21528273E58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECB006498C37140216F3B32093AA687 /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		4EDA968EC2829873CF760C25EA3577D7 /* Pods-DeleteContacts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeleteContacts.modulemap"; sourceTree = "<group>"; };
+		4F5DF55B3579D0DB4D8EB01A0D7E1E02 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = PhoneNumberKit/UI/TextField.swift; sourceTree = "<group>"; };
+		50DB5763B875D2EAE74688CA18738238 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		53FEF411FE5F8B9EA24E33BE411B728C /* Pods-DeleteContacts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeleteContacts-dummy.m"; sourceTree = "<group>"; };
+		54E560B8B38594CB62A4E51FB36FA284 /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Classes/DDOSLogger.h; sourceTree = "<group>"; };
+		574F1F8254E290CE3A0704C774FF6B26 /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		5B1CA4E8973D05D070D45061F0394676 /* Pods-DeleteContactsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeleteContactsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B2DC5AAB69F6F9B48CEBE10828F87E4 /* Pods_DeleteContactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeleteContactsUITests.framework; path = "Pods-DeleteContactsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4942EA2358CEFA3419B1B84EA4C48D /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		632DCE5EFAFC9B2429E499B57195EA4D /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
+		639BF79D565673CFBA1AE0BB70F62BE9 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		657FBD4887A439FC1290740A830221F4 /* Pods-DeleteContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeleteContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65A4091A7F55AF1133066DC263A9BB2E /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		6CD4EAA2E6783A79A22BE194616C8AEC /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		73F9C3CBAC0F858AD395B0B63EAAD4B5 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		743002A2302D17116C8C899FC6591D48 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		75056E51B7EE5E69BE4554524F5B8C08 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		777864DB3273680CA09C5BA8EFBF756B /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		7B8EE1A6023BBE4B1DDFFA4FD3EA0931 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		7D27F54B2C5D5D52773E84DC4D4A846F /* Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
+		7DEB0DEFAE279D76D7F438C2EC968F97 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		7E4F9C83C8DFBED005F4497FDD9C6512 /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		7F7D05A1B2966A996912760961E32375 /* Pods-DeleteContacts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeleteContacts-umbrella.h"; sourceTree = "<group>"; };
+		82F31FB21E5B6B0E37A6D166E6B3DE64 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		84618EBD421D6DFA8FB8F1B5F438BB3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847340CD2DE8F8B1F8781E987EC7291A /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		8603470E6ABF12C56B03A6E9AAD3F183 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		87C0DC15167DF202C8D46FCC6E460ABE /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		89D781929C3138BF6F6E38436F6CDB5D /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Swift.swift"; path = "PhoneNumberKit/NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
+		8AE858668C0AA3E1FF4D5B68B260BCFC /* PhoneNumberKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PhoneNumberKit.modulemap; sourceTree = "<group>"; };
+		8C821C2D133627180B2D6471FED9DBFD /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		90C6702E3743352AC90B7D370F2AA948 /* Pods-DeleteContactsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeleteContactsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91935C09E236DCC337272AD118F632D0 /* Pods-DeleteContactsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeleteContactsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91EB320CF32FC9B28D0EB6C9783B4D18 /* Pods-DeleteContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeleteContacts.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B9A95630E49915420100DA8BF9600A /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		97399C2358F1C131FECF8BC3040705EF /* Pods-DeleteContactsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeleteContactsTests-frameworks.sh"; sourceTree = "<group>"; };
+		974E63CEA7ACC3CB89229E39519F8B93 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		9A53100649B6F8944E7614769CB490D3 /* PhoneNumberKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PhoneNumberKit-dummy.m"; sourceTree = "<group>"; };
+		9B9B33BE7A43B21255B637007B27B602 /* Pods-DeleteContacts-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeleteContacts-frameworks.sh"; sourceTree = "<group>"; };
+		9F6397E37211BF1AA17CE52A4F4446C0 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		A4835B80590662CF75337EBB04D20C04 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		A55AD0A9D59A8A85FB4C0862DC964A8E /* ParseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
+		A55EEDDA10C563521E5A1D15FD76FADC /* Pods-DeleteContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeleteContactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9B52F85AD98C3B74EE70D22FD4149E4 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		B9F9050B9598B80AD46998A97C2A6012 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		BC00A56E33F57FAA477E7E70D2CA0E38 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		BF63B9E2026CBAC885E0F0FF289B70AF /* Pods-DeleteContactsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeleteContactsTests.modulemap"; sourceTree = "<group>"; };
+		C2AD73CE5A15FC6BE493DFD3AF979768 /* Pods_DeleteContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeleteContacts.framework; path = "Pods-DeleteContacts.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57E692589ABA7FB950A3867CADF1B7F /* LayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutSupport.swift; path = Cartography/LayoutSupport.swift; sourceTree = "<group>"; };
+		C5D35625F647D59B63E0810A13A41DED /* Pods-DeleteContacts-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeleteContacts-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7A1D44478C06E1348957BEEB28A54B0 /* PhoneNumberKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PhoneNumberKit-umbrella.h"; sourceTree = "<group>"; };
+		D139E3A6BE745CB411A8C4733486A767 /* RegexManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegexManager.swift; path = PhoneNumberKit/RegexManager.swift; sourceTree = "<group>"; };
+		D1416DC15A55527EB8BBCE3157F3B3D0 /* Pods-DeleteContactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeleteContactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D50997F537F4D77B5D4329875DD74F0B /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Cartography.modulemap; sourceTree = "<group>"; };
+		D512A74D049C60C7E9562A0403B93AB5 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		D76A8407DF35C70D0A9146869DEF438D /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
+		D8E674108204DAB2356BB4C563BA3FC4 /* Pods-DeleteContactsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeleteContactsUITests-dummy.m"; sourceTree = "<group>"; };
+		DDAA389398045CA16E60F34CAEC8581F /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		DDC4A6BCD8E064FC8B8EB1FB66C8B9E1 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		DF18296E03DEFD9EFEB069828BFDB6C2 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		E0872EC51B6C10F49066D182FE56A09B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PhoneNumberKit.framework; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41E0FB32E52AA3781C04C77FD8AB4B5 /* Pods-DeleteContactsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeleteContactsUITests-umbrella.h"; sourceTree = "<group>"; };
+		E69C0D5CF9D761AAF0AFF06CE67D66F7 /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		E701C6756A1FAF9230AB2BF8F0874FE8 /* PhoneNumberKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PhoneNumberKit.xcconfig; sourceTree = "<group>"; };
+		E75500B9EABADF18F9C20146B1FF25E7 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		E827F6BC607D7845ABB5038072596EDB /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		E8DF8E196472FB56629982A31268CA5A /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		EA052AF641610FE5C9618B7E817221C5 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		EA81E84ADC108591DFA92BC021F15F7B /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		EAA43FC2C2FC64161B230FC751A643F3 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		F413D54B461B6108F2E4D5144E3EB8D4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		F56012938EFD2908A090A730C4157B49 /* PhoneNumberKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
+		F800E77135132B32B2D2CC03891D4DC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAAFD27DDD994D1CF030E9956AC748B /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		FC2DCD01A8133F708FE5C3FC01AF31AF /* MetadataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetadataManager.swift; path = PhoneNumberKit/MetadataManager.swift; sourceTree = "<group>"; };
+		FD5D2B200F9DB9F150EB633939467242 /* Pods-DeleteContactsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeleteContactsUITests.modulemap"; sourceTree = "<group>"; };
+		FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FED6CADD99C9B007B95C53CA6CCA09B5 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		FF9E4A6869F265FE1656154144C6E297 /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF8E796D336E98252CA2DF0939E70BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9047E05189D481A9ED8BE3F9C8331AC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22229CCFB21191F4B224FE060F2E08B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824894B05CC386BEDEB4A1CD5B2E5BFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EDE21247FA8F5D955C22F5BDD28F918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DDFF25768E01F1890BCFA79B2DDCE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		761554F5306F577313F35D0C045A5B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61536BB30EC36D7AC1845CDBCA394763 /* CoreTelephony.framework in Frameworks */,
+				599FCB585BC9E290ED412A0633E2CE0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4AAE12E09D29DA5F684C9BD8B5FE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FBD4B684936450BD7CD0155347BB4EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF033BE704E975379CDF0733BA86BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098FC99C196F13DF60B1650E4894025 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0041D3F6C9F7E91EB35B49541CD087DA /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				5E4942EA2358CEFA3419B1B84EA4C48D /* CocoaLumberjack.h */,
+				38D737CEE7850116727F16DEEABC1C18 /* DDAbstractDatabaseLogger.h */,
+				7B8EE1A6023BBE4B1DDFFA4FD3EA0931 /* DDAbstractDatabaseLogger.m */,
+				574F1F8254E290CE3A0704C774FF6B26 /* DDASLLogCapture.h */,
+				49534935113E6D5D744A1D0B5E5A7E0B /* DDASLLogCapture.m */,
+				E827F6BC607D7845ABB5038072596EDB /* DDASLLogger.h */,
+				82F31FB21E5B6B0E37A6D166E6B3DE64 /* DDASLLogger.m */,
+				95B9A95630E49915420100DA8BF9600A /* DDAssertMacros.h */,
+				7E4F9C83C8DFBED005F4497FDD9C6512 /* DDFileLogger.h */,
+				4304FC3ECBC3E14CC980D3532E4D4789 /* DDFileLogger.m */,
+				A4835B80590662CF75337EBB04D20C04 /* DDLegacyMacros.h */,
+				9F6397E37211BF1AA17CE52A4F4446C0 /* DDLog.h */,
+				DDC4A6BCD8E064FC8B8EB1FB66C8B9E1 /* DDLog.m */,
+				50DB5763B875D2EAE74688CA18738238 /* DDLog+LOGV.h */,
+				0A1962C5FE33F00BABC3022714655497 /* DDLogMacros.h */,
+				54E560B8B38594CB62A4E51FB36FA284 /* DDOSLogger.h */,
+				45AD6E08939A9E8E7450069FFD486262 /* DDOSLogger.m */,
+				FED6CADD99C9B007B95C53CA6CCA09B5 /* DDTTYLogger.h */,
+				E8DF8E196472FB56629982A31268CA5A /* DDTTYLogger.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		17F28B90211EB5B29722C08E6614E39F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F5DF55B3579D0DB4D8EB01A0D7E1E02 /* TextField.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		19D0F4AA7796F12B5EBB948CDECDEB9D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C7B8E783A3908D987F46AFDD1700F9 /* Pods-DeleteContacts */,
+				4C125CF1FF42BFBB42AA22E58D4A58E0 /* Pods-DeleteContactsTests */,
+				1C7CA2081A6107F1B92505C0971B7FB1 /* Pods-DeleteContactsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C7CA2081A6107F1B92505C0971B7FB1 /* Pods-DeleteContactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3874145B8AFE471AA3B19E564E364047 /* Info.plist */,
+				FD5D2B200F9DB9F150EB633939467242 /* Pods-DeleteContactsUITests.modulemap */,
+				91935C09E236DCC337272AD118F632D0 /* Pods-DeleteContactsUITests-acknowledgements.markdown */,
+				0AAF72486E25DF70855F826006CDFC75 /* Pods-DeleteContactsUITests-acknowledgements.plist */,
+				D8E674108204DAB2356BB4C563BA3FC4 /* Pods-DeleteContactsUITests-dummy.m */,
+				16157453196C23E34C742382C8F8CC67 /* Pods-DeleteContactsUITests-frameworks.sh */,
+				0C03EBD50C378D6417925353EFEE2D52 /* Pods-DeleteContactsUITests-resources.sh */,
+				E41E0FB32E52AA3781C04C77FD8AB4B5 /* Pods-DeleteContactsUITests-umbrella.h */,
+				D1416DC15A55527EB8BBCE3157F3B3D0 /* Pods-DeleteContactsUITests.debug.xcconfig */,
+				1DBE854B7D3CCA9CF777DFEC30870D1D /* Pods-DeleteContactsUITests.release.xcconfig */,
+			);
+			name = "Pods-DeleteContactsUITests";
+			path = "Target Support Files/Pods-DeleteContactsUITests";
+			sourceTree = "<group>";
+		};
+		289A7320381DB0F820BD31CBC0B2DD1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31CD813572338829ED0F17B01171BD1C /* PhoneNumberMetadata.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2AF0C7AFF50E5798E3C7EA2F93764C2F /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				0041D3F6C9F7E91EB35B49541CD087DA /* Default */,
+				42576C9CD76720E161F86102F8235160 /* Extensions */,
+				DA964096492349D1BB8FBBA77D019A87 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		42576C9CD76720E161F86102F8235160 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03C9C8E145864EEB84E72807D536866B /* DDContextFilterLogFormatter.h */,
+				639BF79D565673CFBA1AE0BB70F62BE9 /* DDContextFilterLogFormatter.m */,
+				743002A2302D17116C8C899FC6591D48 /* DDDispatchQueueLogFormatter.h */,
+				DF18296E03DEFD9EFEB069828BFDB6C2 /* DDDispatchQueueLogFormatter.m */,
+				73F9C3CBAC0F858AD395B0B63EAAD4B5 /* DDMultiFormatter.h */,
+				187C548D3B519EED7ECD2761D6CF3F30 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5E6A189A5BA79AC41336594EC936CFA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C125CF1FF42BFBB42AA22E58D4A58E0 /* Pods-DeleteContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BC2D1B2EB16E5DA97D5E21528273E58 /* Info.plist */,
+				BF63B9E2026CBAC885E0F0FF289B70AF /* Pods-DeleteContactsTests.modulemap */,
+				5B1CA4E8973D05D070D45061F0394676 /* Pods-DeleteContactsTests-acknowledgements.markdown */,
+				90C6702E3743352AC90B7D370F2AA948 /* Pods-DeleteContactsTests-acknowledgements.plist */,
+				2E90EB6C124961782D313137F349B4B4 /* Pods-DeleteContactsTests-dummy.m */,
+				97399C2358F1C131FECF8BC3040705EF /* Pods-DeleteContactsTests-frameworks.sh */,
+				4A7F05244864197A54D4BF33386DC942 /* Pods-DeleteContactsTests-resources.sh */,
+				4A1173D80F43E5679699108D95744DC0 /* Pods-DeleteContactsTests-umbrella.h */,
+				657FBD4887A439FC1290740A830221F4 /* Pods-DeleteContactsTests.debug.xcconfig */,
+				A55EEDDA10C563521E5A1D15FD76FADC /* Pods-DeleteContactsTests.release.xcconfig */,
+			);
+			name = "Pods-DeleteContactsTests";
+			path = "Target Support Files/Pods-DeleteContactsTests";
+			sourceTree = "<group>";
+		};
+		5FB8322FD39416AB560825A52798142E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E0B489117A81BE7E80975BD7278F581 /* Cartography */,
+				2AF0C7AFF50E5798E3C7EA2F93764C2F /* CocoaLumberjack */,
+				707A49A35086047F9890B81335C23317 /* PhoneNumberKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		707A49A35086047F9890B81335C23317 /* PhoneNumberKit */ = {
+			isa = PBXGroup;
+			children = (
+				7A9815139894F22CBD4AD9F6D770121C /* PhoneNumberKitCore */,
+				A1271F1E61EED7CCEFD8B7AC6BDDBAC4 /* Support Files */,
+				17F28B90211EB5B29722C08E6614E39F /* UIKit */,
+			);
+			name = PhoneNumberKit;
+			path = PhoneNumberKit;
+			sourceTree = "<group>";
+		};
+		7A9815139894F22CBD4AD9F6D770121C /* PhoneNumberKitCore */ = {
+			isa = PBXGroup;
+			children = (
+				632DCE5EFAFC9B2429E499B57195EA4D /* Constants.swift */,
+				7D27F54B2C5D5D52773E84DC4D4A846F /* Formatter.swift */,
+				FC2DCD01A8133F708FE5C3FC01AF31AF /* MetadataManager.swift */,
+				3905239DDC4DBF0F3D398F913C04D6FB /* MetadataTypes.swift */,
+				89D781929C3138BF6F6E38436F6CDB5D /* NSRegularExpression+Swift.swift */,
+				A55AD0A9D59A8A85FB4C0862DC964A8E /* ParseManager.swift */,
+				1AE23794006D7EA9A5CD482A16CE8EC4 /* PartialFormatter.swift */,
+				21E4062A451DF9E55954ABCA0DAE3E5D /* PhoneNumber.swift */,
+				F56012938EFD2908A090A730C4157B49 /* PhoneNumberKit.swift */,
+				1637FEF1F96523982BC224D518CA5FDF /* PhoneNumberParser.swift */,
+				D139E3A6BE745CB411A8C4733486A767 /* RegexManager.swift */,
+				289A7320381DB0F820BD31CBC0B2DD1A /* Resources */,
+			);
+			name = PhoneNumberKitCore;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5FB8322FD39416AB560825A52798142E /* Pods */,
+				D5EC1F76E4D827BC60F92EFFF5E5BA58 /* Products */,
+				19D0F4AA7796F12B5EBB948CDECDEB9D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E0B489117A81BE7E80975BD7278F581 /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB006498C37140216F3B32093AA687 /* Align.swift */,
+				31E27EF208F0ADBE8323E51EB0CF714D /* Coefficients.swift */,
+				B9B52F85AD98C3B74EE70D22FD4149E4 /* Compound.swift */,
+				847340CD2DE8F8B1F8781E987EC7291A /* Constrain.swift */,
+				E75500B9EABADF18F9C20146B1FF25E7 /* Constraint.swift */,
+				75056E51B7EE5E69BE4554524F5B8C08 /* ConstraintGroup.swift */,
+				BC00A56E33F57FAA477E7E70D2CA0E38 /* Context.swift */,
+				8603470E6ABF12C56B03A6E9AAD3F183 /* Dimension.swift */,
+				EA052AF641610FE5C9618B7E817221C5 /* Distribute.swift */,
+				FAAAFD27DDD994D1CF030E9956AC748B /* Edge.swift */,
+				E69C0D5CF9D761AAF0AFF06CE67D66F7 /* Edges.swift */,
+				DDAA389398045CA16E60F34CAEC8581F /* Expression.swift */,
+				0025512BFFB5DB84929FB2E1C0C1D16B /* Extensions.swift */,
+				41ABA8254AB4DAF23C0CBB832678BCA6 /* LayoutProxy.swift */,
+				C57E692589ABA7FB950A3867CADF1B7F /* LayoutSupport.swift */,
+				B9F9050B9598B80AD46998A97C2A6012 /* Point.swift */,
+				46C72C1D65BCDDA556F200032872711F /* Priority.swift */,
+				6CD4EAA2E6783A79A22BE194616C8AEC /* Property.swift */,
+				974E63CEA7ACC3CB89229E39519F8B93 /* Size.swift */,
+				8C821C2D133627180B2D6471FED9DBFD /* View.swift */,
+				EAA43FC2C2FC64161B230FC751A643F3 /* ViewUtils.swift */,
+				F45FF94D82033330E89A5FFC573A973E /* Support Files */,
+			);
+			name = Cartography;
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		97C7B8E783A3908D987F46AFDD1700F9 /* Pods-DeleteContacts */ = {
+			isa = PBXGroup;
+			children = (
+				1EF2B80A9D2121A845AA3DABCB2E1894 /* Info.plist */,
+				4EDA968EC2829873CF760C25EA3577D7 /* Pods-DeleteContacts.modulemap */,
+				2A0787ED96C3DC9BFF89DC26BCA9F17C /* Pods-DeleteContacts-acknowledgements.markdown */,
+				C5D35625F647D59B63E0810A13A41DED /* Pods-DeleteContacts-acknowledgements.plist */,
+				53FEF411FE5F8B9EA24E33BE411B728C /* Pods-DeleteContacts-dummy.m */,
+				9B9B33BE7A43B21255B637007B27B602 /* Pods-DeleteContacts-frameworks.sh */,
+				374CD2F6A4C8066D796BA58CC069E57D /* Pods-DeleteContacts-resources.sh */,
+				7F7D05A1B2966A996912760961E32375 /* Pods-DeleteContacts-umbrella.h */,
+				91EB320CF32FC9B28D0EB6C9783B4D18 /* Pods-DeleteContacts.debug.xcconfig */,
+				2D485B800A322710F28056AB99969D1B /* Pods-DeleteContacts.release.xcconfig */,
+			);
+			name = "Pods-DeleteContacts";
+			path = "Target Support Files/Pods-DeleteContacts";
+			sourceTree = "<group>";
+		};
+		A1271F1E61EED7CCEFD8B7AC6BDDBAC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C66CA0EA42AD2F65E820BC4F9B2B277 /* Info.plist */,
+				8AE858668C0AA3E1FF4D5B68B260BCFC /* PhoneNumberKit.modulemap */,
+				E701C6756A1FAF9230AB2BF8F0874FE8 /* PhoneNumberKit.xcconfig */,
+				9A53100649B6F8944E7614769CB490D3 /* PhoneNumberKit-dummy.m */,
+				3DC1667D536DE29266AE8583EC8FBED4 /* PhoneNumberKit-prefix.pch */,
+				C7A1D44478C06E1348957BEEB28A54B0 /* PhoneNumberKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PhoneNumberKit";
+			sourceTree = "<group>";
+		};
+		A5E6A189A5BA79AC41336594EC936CFA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F413D54B461B6108F2E4D5144E3EB8D4 /* CoreTelephony.framework */,
+				FD81AE9D25E8DDE264CF093159150951 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5EC1F76E4D827BC60F92EFFF5E5BA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E9BE8152C76CC3E0F7AB1CC248A309E /* Cartography.framework */,
+				2A1A5E7F4D110DB97C086F0343BD731F /* CocoaLumberjack.framework */,
+				E0872EC51B6C10F49066D182FE56A09B /* PhoneNumberKit.framework */,
+				C2AD73CE5A15FC6BE493DFD3AF979768 /* Pods_DeleteContacts.framework */,
+				104DB34B333689D732D89D3586F7CCEA /* Pods_DeleteContactsTests.framework */,
+				5B2DC5AAB69F6F9B48CEBE10828F87E4 /* Pods_DeleteContactsUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA964096492349D1BB8FBBA77D019A87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF9E4A6869F265FE1656154144C6E297 /* CocoaLumberjack.modulemap */,
+				108533A816B9412FE26091000E24E740 /* CocoaLumberjack.xcconfig */,
+				777864DB3273680CA09C5BA8EFBF756B /* CocoaLumberjack-dummy.m */,
+				87C0DC15167DF202C8D46FCC6E460ABE /* CocoaLumberjack-prefix.pch */,
+				D76A8407DF35C70D0A9146869DEF438D /* CocoaLumberjack-umbrella.h */,
+				F800E77135132B32B2D2CC03891D4DC3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		F45FF94D82033330E89A5FFC573A973E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50997F537F4D77B5D4329875DD74F0B /* Cartography.modulemap */,
+				7DEB0DEFAE279D76D7F438C2EC968F97 /* Cartography.xcconfig */,
+				65A4091A7F55AF1133066DC263A9BB2E /* Cartography-dummy.m */,
+				EA81E84ADC108591DFA92BC021F15F7B /* Cartography-prefix.pch */,
+				D512A74D049C60C7E9562A0403B93AB5 /* Cartography-umbrella.h */,
+				84618EBD421D6DFA8FB8F1B5F438BB3D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		612DA4F2CDEDBCB2583206744F8261FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D11238776F6517BE1E5BF70ABBF452 /* PhoneNumberKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6391C1D836729A38F7EC4D387C40B5F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDFDB4B9829BBB0E369F85D240B8AE /* CocoaLumberjack-umbrella.h in Headers */,
+				DA9B436408E2C274B67172AFA5CA8BC8 /* CocoaLumberjack.h in Headers */,
+				C592821D9C86A16075F492CDDD7EBFA0 /* DDAbstractDatabaseLogger.h in Headers */,
+				01630B2CDB6B45477072484503523233 /* DDASLLogCapture.h in Headers */,
+				F17D3D26ADE94380EAEE45707FDED798 /* DDASLLogger.h in Headers */,
+				3FFB518D11A6E10939ADC380F61245E9 /* DDAssertMacros.h in Headers */,
+				C6F8F9FD9146C80B8913691FE1C62D7B /* DDContextFilterLogFormatter.h in Headers */,
+				CE0DDEB478F72FC416E2C6C52D0C2B29 /* DDDispatchQueueLogFormatter.h in Headers */,
+				FC1615ACE4FF20081559149DCA6FB73A /* DDFileLogger.h in Headers */,
+				466560586F04FC7219636C25771ADAB7 /* DDLegacyMacros.h in Headers */,
+				C6DDC840836592382565874D9FDC2613 /* DDLog+LOGV.h in Headers */,
+				23C7A95FE6B5FD3E1663F19998E29053 /* DDLog.h in Headers */,
+				B8D00D039135E8ABE6417C5D2E3D6C9E /* DDLogMacros.h in Headers */,
+				1FE784EA6C983CCFADBBC32B77159FAE /* DDMultiFormatter.h in Headers */,
+				1437647AF7C88C65998EFA2A2C2B4C01 /* DDOSLogger.h in Headers */,
+				E3C5456FB49A749739230C235355D473 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3DCC948D683885790CE1669440C057 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68DC25AA98DA8ADA74CDFF5FD139A71 /* Pods-DeleteContactsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDF2B9F83FA8C5973D09FDA43EA70A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176FCA5403B59397FB5B9481F9B2FF47 /* Pods-DeleteContacts-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E54A7A5E7DFC837733C1D0BA8F38B01D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF8DAFE58FB9C3EB9C04C0F9CDEAD68 /* Pods-DeleteContactsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E66E0C3AA6C50C06CA3BC63165901BDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4D13CA6A4999D13875761E5100C1A0 /* Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		544212980401A6DA7806F65EAD8C6637 /* Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4640A3FD22DAF78390468CA450BB29DA /* Build configuration list for PBXNativeTarget "Cartography" */;
+			buildPhases = (
+				F8A87B475BE2E0CA1FFEC5F03DEDB801 /* Sources */,
+				7A4AAE12E09D29DA5F684C9BD8B5FE3B /* Frameworks */,
+				E66E0C3AA6C50C06CA3BC63165901BDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cartography;
+			productName = Cartography;
+			productReference = 2E9BE8152C76CC3E0F7AB1CC248A309E /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4E77E187323925C213C1CC2B08B8EE /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */;
+			buildPhases = (
+				40A1A161C36FB0F117E787D104E63CA4 /* Sources */,
+				761554F5306F577313F35D0C045A5B68 /* Frameworks */,
+				EF757B2E17FAF1F21EEAE31D8154A852 /* Resources */,
+				612DA4F2CDEDBCB2583206744F8261FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneNumberKit;
+			productName = PhoneNumberKit;
+			productReference = E0872EC51B6C10F49066D182FE56A09B /* PhoneNumberKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C0CC6F3073700AE9B16244D8C94878C /* Pods-DeleteContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7416193FF16F347296DB5E5C12A537 /* Build configuration list for PBXNativeTarget "Pods-DeleteContacts" */;
+			buildPhases = (
+				C21DE7F6ECCE05B00B333E46F2F38F12 /* Sources */,
+				7FF033BE704E975379CDF0733BA86BA4 /* Frameworks */,
+				7EDF2B9F83FA8C5973D09FDA43EA70A0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8449409AF30D926745A4CB6EE7E13E86 /* PBXTargetDependency */,
+				2834F779EA12FB0D7F4084D68DA0BFA8 /* PBXTargetDependency */,
+				317B9C6518019BA854C1B26A43698A8B /* PBXTargetDependency */,
+			);
+			name = "Pods-DeleteContacts";
+			productName = "Pods-DeleteContacts";
+			productReference = C2AD73CE5A15FC6BE493DFD3AF979768 /* Pods_DeleteContacts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B35E22C1DFDC377162E5EF7EA428D6C4 /* Pods-DeleteContactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DF304EFD95D7C472B6F672F882F02A /* Build configuration list for PBXNativeTarget "Pods-DeleteContactsUITests" */;
+			buildPhases = (
+				058FF334916A4CE4FCFF0930535555A5 /* Sources */,
+				22229CCFB21191F4B224FE060F2E08B4 /* Frameworks */,
+				7D3DCC948D683885790CE1669440C057 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DeleteContactsUITests";
+			productName = "Pods-DeleteContactsUITests";
+			productReference = 5B2DC5AAB69F6F9B48CEBE10828F87E4 /* Pods_DeleteContactsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBC3CBF712A21C271DC0347127A1255B /* Pods-DeleteContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E210AA695A419D813CE2BD51CD6901E /* Build configuration list for PBXNativeTarget "Pods-DeleteContactsTests" */;
+			buildPhases = (
+				B8AE8A139AE75C59F6A637CE56A67E94 /* Sources */,
+				1CF8E796D336E98252CA2DF0939E70BA /* Frameworks */,
+				E54A7A5E7DFC837733C1D0BA8F38B01D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DeleteContactsTests";
+			productName = "Pods-DeleteContactsTests";
+			productReference = 104DB34B333689D732D89D3586F7CCEA /* Pods_DeleteContactsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA2A920A891C4D3535867E5C3EF3D793 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60944B9C9F08107B66FEFD2C6ED77168 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				374141C071FACD1CB06C808E77341DD9 /* Sources */,
+				5EDE21247FA8F5D955C22F5BDD28F918 /* Frameworks */,
+				6391C1D836729A38F7EC4D387C40B5F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = 2A1A5E7F4D110DB97C086F0343BD731F /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D5EC1F76E4D827BC60F92EFFF5E5BA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				544212980401A6DA7806F65EAD8C6637 /* Cartography */,
+				EA2A920A891C4D3535867E5C3EF3D793 /* CocoaLumberjack */,
+				8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */,
+				9C0CC6F3073700AE9B16244D8C94878C /* Pods-DeleteContacts */,
+				CBC3CBF712A21C271DC0347127A1255B /* Pods-DeleteContactsTests */,
+				B35E22C1DFDC377162E5EF7EA428D6C4 /* Pods-DeleteContactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF757B2E17FAF1F21EEAE31D8154A852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9F1A87FA2940B18DBD32B0180D50FA /* PhoneNumberMetadata.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058FF334916A4CE4FCFF0930535555A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AEECFF84EAA3FC953358F2DB6D5267 /* Pods-DeleteContactsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374141C071FACD1CB06C808E77341DD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC870D61CBE8FD2A0D24A3A3D8CE5C62 /* CocoaLumberjack-dummy.m in Sources */,
+				D5D4A699779F1796A4F24BFE1FB94E20 /* DDAbstractDatabaseLogger.m in Sources */,
+				34ADF6CEA813D96341D2C4ED247D0DFD /* DDASLLogCapture.m in Sources */,
+				75CC69BC081384EA3033F3AB5CF97E29 /* DDASLLogger.m in Sources */,
+				7163FCA57C02C890435DFA2A4F3AE4C8 /* DDContextFilterLogFormatter.m in Sources */,
+				77F55DA1292F4A23365745071EF0B667 /* DDDispatchQueueLogFormatter.m in Sources */,
+				381685FA8A1867BFBA1812E8D793DC93 /* DDFileLogger.m in Sources */,
+				2DBA4141D7B052E43958C96F3466FA6E /* DDLog.m in Sources */,
+				08284B0947FEECE865742912B045BCCF /* DDMultiFormatter.m in Sources */,
+				A38FD606BF174D0485A33F01074216FA /* DDOSLogger.m in Sources */,
+				06270CD9D8C26C49505C5F53FF11D927 /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A1A161C36FB0F117E787D104E63CA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF0B3132715704E433B205423D73740 /* Constants.swift in Sources */,
+				0A0E4409D9DAE435A35BAD353F02E60A /* Formatter.swift in Sources */,
+				0104830478F68244D9627F6DC205D940 /* MetadataManager.swift in Sources */,
+				D83522A96EB0E8AC32E66D149A4C7D13 /* MetadataTypes.swift in Sources */,
+				AECF93568D922159B76A632196FCA6E9 /* NSRegularExpression+Swift.swift in Sources */,
+				5F74DB5E632AB8F370CADB9A57A62905 /* ParseManager.swift in Sources */,
+				FD2E20B69C2E19818E62F6570D93917C /* PartialFormatter.swift in Sources */,
+				B6EADA01029546ADA5D4718F1471799C /* PhoneNumber.swift in Sources */,
+				9C8BF7D4C243818BF3FBF03E54F44295 /* PhoneNumberKit-dummy.m in Sources */,
+				F3471ADCD4C3F3995D27362A2DA5054A /* PhoneNumberKit.swift in Sources */,
+				345550ECBA5ABA4FF86DCB480D4A3A58 /* PhoneNumberParser.swift in Sources */,
+				F0AAC8C0A171F5D16D5CC4EDFCFD3AA1 /* RegexManager.swift in Sources */,
+				E2CDF70ADCB177E5A75995E34BF537A1 /* TextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AE8A139AE75C59F6A637CE56A67E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F291A7006FEFD54E568A70080FB82E /* Pods-DeleteContactsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C21DE7F6ECCE05B00B333E46F2F38F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6AD14A29B9DD534ABD5BFD462F8B46 /* Pods-DeleteContacts-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A87B475BE2E0CA1FFEC5F03DEDB801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067B84F7E9EFBEAFDC824931CAAD2051 /* Align.swift in Sources */,
+				AE7ACD648B84D1C8645049118FE42D54 /* Cartography-dummy.m in Sources */,
+				FC27B916EC313A166CE2704745CB14C0 /* Coefficients.swift in Sources */,
+				5F5D3FB5718F4673DC293DA7D97EF046 /* Compound.swift in Sources */,
+				3F2391D80C5AE124D6E13AD3FABFFE01 /* Constrain.swift in Sources */,
+				C2E2993258D9072061A389E518053F8B /* Constraint.swift in Sources */,
+				5CAA19E0EB7CA9EB6047A3E43EC1FC8F /* ConstraintGroup.swift in Sources */,
+				9C7E8D85506FA06C506A330B200FCEE7 /* Context.swift in Sources */,
+				DBC0D8FEB6A8101C977332E8BC16E641 /* Dimension.swift in Sources */,
+				7965A04590F67375EC65249F774B3F6B /* Distribute.swift in Sources */,
+				CD587D5E28B0428E3B4163F1604D26BF /* Edge.swift in Sources */,
+				A084DDD7233A950676D60FCB4FA8BE74 /* Edges.swift in Sources */,
+				697414FCC3C6F8176768FFDDEC73A108 /* Expression.swift in Sources */,
+				A67286FF819C5C943D027E9C40DF456D /* Extensions.swift in Sources */,
+				1431619A2565DD8EAB817240E078707C /* LayoutProxy.swift in Sources */,
+				56EBA0C77344F63CA6A36265A6496A71 /* LayoutSupport.swift in Sources */,
+				88B21B225B2D6BFAB3F50B88495299F1 /* Point.swift in Sources */,
+				22B60CFF6E57EB6DF8CCA5D2CAC3178C /* Priority.swift in Sources */,
+				A7BD4B74A484170A23FF6C7611A11B40 /* Property.swift in Sources */,
+				74BD0664EEC77366D314DA22DD4E721F /* Size.swift in Sources */,
+				05C1C6C0B246E3C5FDF06B2A0BB63F0D /* View.swift in Sources */,
+				9B71D4856DF9CFE5715EDF4E5B3B2844 /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2834F779EA12FB0D7F4084D68DA0BFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = EA2A920A891C4D3535867E5C3EF3D793 /* CocoaLumberjack */;
+			targetProxy = 33EBFE75960FB4A1AD58A8C3E20BB641 /* PBXContainerItemProxy */;
+		};
+		317B9C6518019BA854C1B26A43698A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PhoneNumberKit;
+			target = 8C5BD10883BD185426DD737247F56DEC /* PhoneNumberKit */;
+			targetProxy = 7DAC596AC06F69B16575A50D942A80E0 /* PBXContainerItemProxy */;
+		};
+		8449409AF30D926745A4CB6EE7E13E86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = 544212980401A6DA7806F65EAD8C6637 /* Cartography */;
+			targetProxy = 5D0D6E89E3C0D1C97039661B27A472D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078E8466980FC7F73D8C31AD35247655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108533A816B9412FE26091000E24E740 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A1E025A89FC20C533D7DA4318DCD3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEB0DEFAE279D76D7F438C2EC968F97 /* Cartography.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56730A192FBFEB01207F5FA841EB3964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7785988CCC384942E28970E82DC50EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1416DC15A55527EB8BBCE3157F3B3D0 /* Pods-DeleteContactsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeleteContactsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeleteContactsUITests/Pods-DeleteContactsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeleteContactsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		801421CB51E2BACD98D4CD19EDF23934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657FBD4887A439FC1290740A830221F4 /* Pods-DeleteContactsTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeleteContactsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeleteContactsTests/Pods-DeleteContactsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeleteContactsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88A299E8C41D74355B64971D504B7170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D485B800A322710F28056AB99969D1B /* Pods-DeleteContacts.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeleteContacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeleteContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		946CE0043C6F7E5DE694DC27970EC2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBE854B7D3CCA9CF777DFEC30870D1D /* Pods-DeleteContactsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeleteContactsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeleteContactsUITests/Pods-DeleteContactsUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeleteContactsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B556E34134343ABE6F39A1FCA915A910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91EB320CF32FC9B28D0EB6C9783B4D18 /* Pods-DeleteContacts.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeleteContacts/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeleteContacts/Pods-DeleteContacts.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeleteContacts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6E76E04740CBC2F4B05C71B42A0EE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E701C6756A1FAF9230AB2BF8F0874FE8 /* PhoneNumberKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2F83B998F918F16B0E3367960B1763D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEB0DEFAE279D76D7F438C2EC968F97 /* Cartography.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9C3C65882CDF7AD3AF403F2C26A1B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108533A816B9412FE26091000E24E740 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1DB3E558DF0446672CE324176A54BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55EEDDA10C563521E5A1D15FD76FADC /* Pods-DeleteContactsTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DeleteContactsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeleteContactsTests/Pods-DeleteContactsTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeleteContactsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4D7DCF101430B2440A25925F1FEF3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E701C6756A1FAF9230AB2BF8F0874FE8 /* PhoneNumberKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PhoneNumberKit/PhoneNumberKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PhoneNumberKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PhoneNumberKit/PhoneNumberKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PhoneNumberKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56730A192FBFEB01207F5FA841EB3964 /* Debug */,
+				33F8F7AAAA85E50D89ADDD29179D4D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DF304EFD95D7C472B6F672F882F02A /* Build configuration list for PBXNativeTarget "Pods-DeleteContactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7785988CCC384942E28970E82DC50EB4 /* Debug */,
+				946CE0043C6F7E5DE694DC27970EC2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4E77E187323925C213C1CC2B08B8EE /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D7DCF101430B2440A25925F1FEF3F0 /* Debug */,
+				B6E76E04740CBC2F4B05C71B42A0EE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4640A3FD22DAF78390468CA450BB29DA /* Build configuration list for PBXNativeTarget "Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F83B998F918F16B0E3367960B1763D /* Debug */,
+				2A1E025A89FC20C533D7DA4318DCD3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60944B9C9F08107B66FEFD2C6ED77168 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078E8466980FC7F73D8C31AD35247655 /* Debug */,
+				E9C3C65882CDF7AD3AF403F2C26A1B10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E210AA695A419D813CE2BD51CD6901E /* Build configuration list for PBXNativeTarget "Pods-DeleteContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801421CB51E2BACD98D4CD19EDF23934 /* Debug */,
+				F1DB3E558DF0446672CE324176A54BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7416193FF16F347296DB5E5C12A537 /* Build configuration list for PBXNativeTarget "Pods-DeleteContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B556E34134343ABE6F39A1FCA915A910 /* Debug */,
+				88A299E8C41D74355B64971D504B7170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
